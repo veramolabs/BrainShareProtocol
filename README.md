@@ -13,21 +13,21 @@ The credential's `type` field MUST be `["VerifiableCredential", "BrainSharePost"
 As defined in the context, the `credentialSubject` MUST include a field `message`, which is a Markdown string that can also contain a special codeblock type allowing it to embed or reference other verifiable credentials, using the following formats:
 
 ```
-```vc+jwt
+'''vc+jwt
 neyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiQnJhaW5zaGFyZVBvc3QiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsicG9zdCI6ImZmZmYyMjIyMiJ9fSwic3ViIjoiZGlkOnBlZXI6Mi5FejZMU3J1U3JIYkY3dXBra1RCRWZkTTRxVVVnbzJ4dmdQc2hDNzNyTDdXRkRGbmZmLlZ6Nk1raFBCcGE3Vno2OEp3NU11c2d4S01haUp4Z1UzclNQRkNnUnZISzY4UmVKTXcuU2V5SnBaQ0k2SWpFeU16UWlMQ0owSWpvaVpHMGlMQ0p6SWpvaVpHbGtPbmRsWWpwa1pYWXRaR2xrWTI5dGJTMXRaV1JwWVhSdmNpNW9aWEp2YTNWaGNIQXVZMjl0SWl3aVpHVnpZM0pwY0hScGIyNGlPaUpoSUVSSlJFTnZiVzBnWlc1a2NHOXBiblFpZlEiLCJuYmYiOjE2OTQ1NjMxMjcsImlzcyI6ImRpZDpwZWVyOjIuRXo2TFNydVNySGJGN3Vwa2tUQkVmZE00cVVVZ28yeHZnUHNoQzczckw3V0ZERm5mZi5WejZNa2hQQnBhN1Z6NjhKdzVNdXNneEtNYWlKeGdVM3JTUEZDZ1J2SEs2OFJlSk13LlNleUpwWkNJNklqRXlNelFpTENKMElqb2laRzBpTENKeklqb2laR2xrT25kbFlqcGtaWFl0Wkdsa1kyOXRiUzF0WldScFlYUnZjaTVvWlhKdmEzVmhjSEF1WTI5dElpd2laR1Z6WTNKcGNIUnBiMjRpT2lKaElFUkpSRU52YlcwZ1pXNWtjRzlwYm5RaWZRIn0.kF72OisEL5jYR6R3O4VTZU751gfL44kfshW7Q0WXzTH2Q1jNro13gkUOpGEf9Ei5UkPWg-xRXNS7qEuwbQmtBw
-```
+'''
 ```
 
 ```
-```vc+json+ld
+'''vc+json+ld
 TODO: POST JSON-LD CREDENTIAL HERE
-```
+'''
 ```
 
 ```
-```vc+multihash
+'''vc+multihash
 qz1311d142sdf894189a142
-```
+'''
 ```
 
 ### WikiLinks & Index
@@ -77,7 +77,8 @@ Credential Example:
 '''
 ```
 
-note: for rendering purposes the code block above uses single quotes instead of backticks
+## Note
+for spec rendering purposes the code blocks above uses single quotes instead of backticks
 
 ## Purpose
 
